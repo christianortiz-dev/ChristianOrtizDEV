@@ -41,6 +41,10 @@ a {
   color: inherit;
 }
 
+hr {  
+  opacity: 50%;
+}
+
 /* ? ==================== NAVBAR ==================== */
 .navbar {
   display: flex;
@@ -515,6 +519,31 @@ h2 {
 }
 
 /* ? ==================== SKILLS ==================== */
+/* Skills section */
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 1000px;
+
+}
+
+/* ? ==================== GITHUB STATS ==================== */
+/* Skills section */
+.githubStats {
+  width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.githubStats img {
+  width: 100%; 
+}
 
 /* ? ==================== CONTACT ME ==================== */
 /* Contact section */
@@ -534,10 +563,9 @@ h2 {
 }
 
 /* Line above contact section */
-hr {
+#hr_section {
   width: 50%;
   margin: 100px 0 20px 0;
-  opacity: 50%;
 }
 
 /* Contact me H2 */
