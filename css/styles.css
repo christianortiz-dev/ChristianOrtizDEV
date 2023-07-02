@@ -531,7 +531,7 @@ h2 {
 }
 
 /* ? ==================== GITHUB STATS ==================== */
-/* Skills section */
+/* GitHub Stats section */
 .githubStats {
   width: 1000px;
 
@@ -543,6 +543,10 @@ h2 {
 
 .githubStats img {
   width: 100%; 
+  margin: 10px 0 10px 0;
+
+  border: #e5e5dc50 1px solid;
+  border-radius: 10px;
 }
 
 /* ? ==================== CONTACT ME ==================== */
@@ -815,6 +819,12 @@ footer {
 
   /* ? ==================== SKILLS ==================== */
 
+  /* ? ==================== GITHUB STATS ==================== */
+  /* GitHub Stats section */
+  .githubStats {
+    width: 800px;
+  }
+
   /* ? ==================== CONTACT ME ==================== */
 
   /* ? ==================== FOOTER ==================== */
@@ -865,6 +875,12 @@ footer {
   }
 
   /* ? ==================== SKILLS ==================== */
+
+  /* ? ==================== GITHUB STATS ==================== */
+  /* GitHub Stats section */
+  .githubStats {
+    width: 700px;
+  }
 
   /* ? ==================== CONTACT ME ==================== */
 
@@ -1017,6 +1033,12 @@ footer {
 
   /* ? ==================== SKILLS ==================== */
 
+  /* ? ==================== GITHUB STATS ==================== */
+  /* GitHub Stats section */
+  .githubStats {
+    width: 550px;
+  }
+
   /* ? ==================== CONTACT ME ==================== */
   /* Contact section */
   .contact-me {
@@ -1069,6 +1091,13 @@ footer {
   }
 
   /* ? ==================== SKILLS ==================== */
+
+  /* ? ==================== GITHUB STATS ==================== */
+  /* GitHub Stats section */
+  .githubStats {
+    width: 90%;
+    margin: 50px auto;
+  }
 
   /* ? ==================== CONTACT ME ==================== */
   /* Contact section */
@@ -1140,6 +1169,12 @@ footer {
   }
 
   /* ? ==================== SKILLS ==================== */
+
+  /* ? ==================== GITHUB STATS ==================== */
+  /* GitHub Stats section */
+  .githubStats {
+    width: 90%;
+  }
 
   /* ? ==================== CONTACT ME ==================== */
 
