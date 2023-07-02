@@ -299,7 +299,7 @@ h2 {
 /* ? ==================== PROJECTS ==================== */
 /* projects section scroll*/
 #projects {
-  scroll-margin-top: 150px;
+  scroll-margin-top: 190px;
 }
 
 /* Projects html tags in screen */
@@ -525,7 +525,7 @@ h2 {
 /* ? ==================== SKILLS ==================== */
 /* Skills section scroll */
 #skills {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 190px;
 }
 
 /* Skills section */
@@ -542,7 +542,7 @@ h2 {
 /* ? ==================== GITHUB STATS ==================== */
 /* GitHub Stats section scroll*/
 #githubStats {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 190px;
 }
 
 /* GitHub Stats section */
@@ -990,6 +990,10 @@ footer {
   }
 
   /* ? ==================== PROJECTS ==================== */
+  #projects {
+    scroll-margin-top: 150px;
+  }
+
   .projects::before,
   .projects::after {
     display: none;
@@ -1052,14 +1056,26 @@ footer {
   }
 
   /* ? ==================== SKILLS ==================== */
+  #skills {
+    scroll-margin-top: 120px;
+  }
+
 
   /* ? ==================== GITHUB STATS ==================== */
+  #githubStats {
+    scroll-margin-top: 120px;
+  }
+
   /* GitHub Stats section */
   .githubStats {
     width: 550px;
   }
 
   /* ? ==================== CONTACT ME ==================== */
+  #contact-me {
+    scroll-margin-top: 140px;
+  }
+
   /* Contact section */
   .contact-me {
     width: 450px;
