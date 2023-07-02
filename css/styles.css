@@ -54,6 +54,10 @@ hr {
   /* height: 130px; */
   transition: ease-in-out 0.4s;
 
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+
   /* background-color: lightcoral; */
 
   /* effects */
@@ -187,11 +191,10 @@ h2 {
 
 /* ? ==================== ABOUT ME ==================== */
 .about-me {
-  margin-top: -130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 220px);
+  height: calc(100vh - 170px);
   /* background-color: red; */
 }
 
@@ -294,8 +297,9 @@ h2 {
 }
 
 /* ? ==================== PROJECTS ==================== */
-.projects {
-  scroll-margin-top: 90px;
+/* projects section scroll*/
+#projects {
+  scroll-margin-top: 150px;
 }
 
 /* Projects html tags in screen */
@@ -519,6 +523,11 @@ h2 {
 }
 
 /* ? ==================== SKILLS ==================== */
+/* Skills section scroll */
+#skills {
+  scroll-margin-top: 120px;
+}
+
 /* Skills section */
 .skills {
   display: flex;
@@ -531,6 +540,11 @@ h2 {
 }
 
 /* ? ==================== GITHUB STATS ==================== */
+/* GitHub Stats section scroll*/
+#githubStats {
+  scroll-margin-top: 120px;
+}
+
 /* GitHub Stats section */
 .githubStats {
   width: 1000px;
@@ -550,6 +564,11 @@ h2 {
 }
 
 /* ? ==================== CONTACT ME ==================== */
+/* Contact section scroll*/
+#contact-me {
+  scroll-margin-top: 130px;
+}
+
 /* Contact section */
 .contact-me {
   display: grid;
@@ -899,7 +918,8 @@ footer {
   /* ? ==================== NAVBAR ==================== */
 
   .navbar:has(#toggler:checked) {
-    height: 260px;
+    height: 310px;
+    box-shadow: 5px 5px 15px #00000080;
   }
 
   .navbar {
@@ -1061,7 +1081,7 @@ footer {
 
   /* ? ==================== ABOUT ME ==================== */
   .about-me {
-    height: calc(100vh - 250px);
+    height: calc(100vh - 200px);
   }
 
   .about-me p {
@@ -1137,7 +1157,7 @@ footer {
 
   /* ? ==================== NAVBAR ==================== */
   .logo img {
-    width: 70px;
+    width: 60px;
   }
 
   .logo h1 {
