@@ -1,4 +1,4 @@
-//* ============ DETECT SCREEN WIDTH ============
+//* ============ DETECT SCREEN WIDTH ============ *//
 
 // Create a function that detect the screen width
 function getScreenWidth() {
@@ -69,7 +69,7 @@ function getScreenWidth() {
         "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=400&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
-      
+
     //Default
     default:
       break;
@@ -81,3 +81,59 @@ getScreenWidth();
 
 // Detect when the screen resizes and excute the function
 window.addEventListener("resize", getScreenWidth);
+
+//* ============ PROJECTS ICONS ============ *//
+
+// Function detects classes
+function autoProjectsIcons() {
+  // Looking for elements with "project-icon" class
+  let iconWrapper = document.getElementsByClassName("project-icon");
+  // Run through array to all elements
+  for (let i = 0; i < iconWrapper.length; i++) {
+    // Assign array into a var
+    let content = iconWrapper[i].innerText;
+    // Switch cases for each icon
+    switch (true) {
+      //*==========*//
+      case iconWrapper[i].innerHTML == "html5":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white'>";
+        break;
+
+      //*==========*//
+      case iconWrapper[i].innerHTML == "css3":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white'>";
+        break;
+
+      //*==========*//
+      case iconWrapper[i].innerHTML == "javascript":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E'>";
+        break;
+
+      //*==========*//
+      case iconWrapper[i].innerHTML == "php":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white'>";
+        break;
+
+      //*==========*//
+      case iconWrapper[i].innerHTML == "mysql":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/mysql-00618b.svg?style=for-the-badge&logo=mysql&logoColor=white'>";
+        break;
+
+      //*==========*//
+      case iconWrapper[i].innerHTML == "bootstrap":
+        iconWrapper[i].innerHTML =
+          "<img src= 'https://img.shields.io/badge/bootstrap-7310f5.svg?style=for-the-badge&logo=bootstrap&logoColor=white'>";
+        break;
+
+      default:
+        break;
+    }
+  }
+}
+
+autoProjectsIcons();

@@ -41,7 +41,7 @@ a {
   color: inherit;
 }
 
-hr {  
+hr {
   opacity: 50%;
 }
 
@@ -426,11 +426,6 @@ h2 {
   vertical-align: baseline;
 }
 
-/* Shows "/" before each li */
-.project-techs li::before {
-  content: "/ ";
-}
-
 /* Right to left content in even projects */
 .project:nth-child(even) .project-techs {
   justify-content: flex-end;
@@ -463,7 +458,8 @@ h2 {
 }
 
 /* Project link general */
-.project-link .github, .project-link .demo {
+.project-link .github,
+.project-link .demo {
   transition: ease-in-out 0.2s;
   margin: 0 10px 0 10px;
 
@@ -482,7 +478,8 @@ h2 {
   filter: drop-shadow(0 0 5px #3f4974);
 }
 
-.project-link .github:after, .project-link .demo::after {
+.project-link .github:after,
+.project-link .demo::after {
   font-size: 0rem;
 
   position: relative;
@@ -555,7 +552,7 @@ h2 {
 }
 
 .githubStats img {
-  width: 100%; 
+  width: 100%;
   margin: 10px 0 10px 0;
 
   border: #e5e5dc50 1px solid;
@@ -947,21 +944,21 @@ footer {
     cursor: pointer;
   }
 
-  #toggler:checked ~ .menu {
+  #toggler:checked~.menu {
     transform: scaleY(1);
   }
 
-  #toggler:checked ~ label .line:nth-child(1) {
+  #toggler:checked~label .line:nth-child(1) {
     transform: rotate(45deg) translateY(-3px);
     transform-origin: left;
   }
 
-  #toggler:checked ~ label .line:nth-child(2) {
+  #toggler:checked~label .line:nth-child(2) {
     transform: scaleY(0);
     background-color: #00000000;
   }
 
-  #toggler:checked ~ label .line:nth-child(3) {
+  #toggler:checked~label .line:nth-child(3) {
     transform: rotate(-45deg) translateY(3px);
     transform-origin: left;
   }
@@ -1022,7 +1019,7 @@ footer {
   .project:nth-child(even) .project-desc {
     grid-area: 1 / -1 / 1 / -13;
     text-align: left;
-  }  
+  }
 
   .project a {
     height: 100%;
@@ -1045,6 +1042,10 @@ footer {
     transition: ease-in-out 0.2s;
     object-fit: cover;
     overflow: hidden;
+  }
+
+  .project .project-techs img {
+    filter: none;
   }
 
   /* Project description text */
@@ -1088,6 +1089,7 @@ footer {
   .contact-me {
     width: 450px;
   }
+
   /* ? ==================== FOOTER ==================== */
 }
 
@@ -1152,6 +1154,7 @@ footer {
     font-size: 1rem;
     grid-column: 1/2;
   }
+
   /* ? ==================== FOOTER ==================== */
 
   /* SOCIAL NETWORKS */
