@@ -12,7 +12,7 @@ function getScreenWidth() {
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=1000&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=1000&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=1000&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
     // Screen between 1200px - 992px (800)
@@ -22,7 +22,7 @@ function getScreenWidth() {
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=800&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=800&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=800&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
 
@@ -33,10 +33,10 @@ function getScreenWidth() {
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=700&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=700&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=700&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
-px
+
     // Screen between 768px - 600px (600)
     case screenWidth < 768 && screenWidth >= 600:
       ghStats1.src =
@@ -44,7 +44,7 @@ px
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=600&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=600&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=600&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
 
@@ -55,7 +55,7 @@ px
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=500&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=500&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=500&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
 
@@ -66,7 +66,7 @@ px
       ghStats2.src =
         "https://github-readme-streak-stats.herokuapp.com/?user=christianortiz-dev&hide_border=true&card_width=400&background=14132170&stroke=fe428e&fire=fe428e&ring=fe428e&currStreakNum=f8d847&currStreakLabel=f8d847&sideLabels=fe428e&dates=90d7d3&sideNums=fe428e&mode=&date_format=M j[, Y]";
       ghStats3.src =
-        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=400&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&";
+        "https://github-readme-stats.vercel.app/api/top-langs/?username=christianortiz-dev&hide_border=true&include_all_commits=false&count_private=false&layout=compact&card_width=400&bg_color=14132170&title_color=fe428e&text_color=a1f2ec&icon_color=fe428e&langs_count=10";
 
       break;
       
