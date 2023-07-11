@@ -417,6 +417,14 @@ h2 {
   list-style: none;
 }
 
+.project-techs img {
+  border-radius: 5px;
+  filter: none;
+}
+.project-techs img:hover {
+  transform: none;
+}
+
 /* Individual tech li */
 .project-techs li {
   padding: 6px;
@@ -708,9 +716,9 @@ footer {
   filter: drop-shadow(0 0 5px #0088cc);
 }
 
-/* twitter */
+/* uiverse */
 .social-networks a:nth-child(4):hover {
-  filter: drop-shadow(0 0 5px #1da1f2);
+  filter: drop-shadow(0 0 5px #7941f7);
 }
 
 /* Scroll div */
@@ -797,6 +805,11 @@ footer {
   left: 0;
   bottom: -8px;
   border: 1px solid #e5e5dc;
+}
+
+.copyright .myname {
+  font-weight: bold;
+  color: #7941f7;
 }
 
 /* ! ////////////////////////////////////////// MEDIA QUERY  ////////////////////////////////////////// */

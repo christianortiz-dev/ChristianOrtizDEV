@@ -136,4 +136,5 @@ function autoProjectsIcons() {
   }
 }
 
+// Call function for a initial start
 autoProjectsIcons();
