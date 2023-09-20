@@ -24,6 +24,14 @@
 
   <!-- ==================== CSS ==================== -->
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- ==================== JQUERY ==================== -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+  </script>
+
+<!-- ======================================== -->
+
 </head>
 
 <body>
@@ -31,7 +39,7 @@
     <!--? ================ NAVBAR ================ -->
     <nav class="navbar" id="navbar">
       <!-- Logo -->
-      <a href="#" class="logo">
+      <a href="#" class="logo hideWorkspaceContent">
         <img src="images/logo.svg" alt="logo" />
         <!-- <h1>christian ortiz</h1> -->
       </a>
@@ -44,15 +52,16 @@
       <!-- Menu -->
       <div class="menu">
         <ul class="list">
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#githubStats">GitHub Stats</a></li>
-          <li><a href="#contact-me">Contacto</a></li>
+          <li class="hideWorkspaceContent"><a href="#projects">Proyectos</a></li>
+          <li class="hideWorkspaceContent"><a href="#skills">Skills</a></li>
+          <li class="hideWorkspaceContent"><a href="#githubStats">GitHub Stats</a></li>
+          <li class="hideWorkspaceContent"><a href="#contact-me">Contacto</a></li>
+          <li id="showWorkspaceContent">Workspace</li>
         </ul>
       </div>
     </nav>
   </header>
-  <main>
+  <main id="mainContent">
     <section class="about-me" id="about-me">
       <p>Hola, soy</p>
       <h1>Christian Ortiz</h1>
@@ -204,6 +213,11 @@
       </a>
     </section>
   </main>
+  <section id="workspaceContent">
+    <div>
+      elPEPE
+    </div>
+  </section>
   <footer>
     <section class="social-networks">
       <!-- GitHub -->

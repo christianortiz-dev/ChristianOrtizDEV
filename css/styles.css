@@ -642,7 +642,7 @@ h2 {
   border-radius: 50%;
   border: 1px solid #00000000;
   background-color: #00000000;
-  transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.3s;
   left: 50%;
   top: 50%;
   z-index: -1;
