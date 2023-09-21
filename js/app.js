@@ -149,25 +149,24 @@ function workspaceSectionOnOff() {
   // On clic on #showWorkspaceContent executes a function
   $("#showWorkspaceContent").click(function () {
     // Hide "mainContent" section
-    $("#mainContent").animate({ opacity: 0 }, 200, function () {
+    $("#mainContent").animate({ opacity: 0 }, 300, function () {
       $("#mainContent").css("display", "none");
-    });
-    // Show "workspaceContent" section
-    $("#workspaceContent").animate({ opacity: 1 }, 200, function () {
-      $("#workspaceContent").css("display", "flex");
+      // Show "workspaceContent" section
+      $("#workspaceContent").css("display", "flex").animate({ opacity: 1 }, 300);
+
     });
   });
 
   // On clic on #hideWorkspaceContent executes a function
   $(".hideWorkspaceContent").click(function () {
     // Hide "workspaceContent" section
-    $("#workspaceContent").css("display", "none");
-    // Show "mainContent" section
-    $("#mainContent").css("display", "flex");
-    // Applies a animation
-    $("#mainContent").animate({ opacity: 1 }, 200);
+    $("#workspaceContent").animate({ opacity: 0 }, 300, function () {
+      $("#workspaceContent").css("display", "none");
+      // Show "mainContent" section
+      $("#mainContent").css("display", "flex").animate({ opacity: 1 }, 300);
+    });
   });
 }
 
 // Call function for a initial start
-workspaceSectionOnOff()
+workspaceSectionOnOff();

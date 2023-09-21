@@ -177,11 +177,24 @@ label {
 }
 
 /* ? ==================== CONTENT ==================== */
-main {
+main, #workspaceContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#workspaceContent {
+  padding-top: 170px;
+} 
+
+#workspaceContent div {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
 }
 
 h2 {
