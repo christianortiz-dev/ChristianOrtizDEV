@@ -154,19 +154,50 @@ function workspaceSectionOnOff() {
       // Show "workspaceContent" section
       $("#workspaceContent").css("display", "flex").animate({ opacity: 1 }, 300);
 
+      // Scroll to the top of the page
+      $("html, body").animate({ scrollTop: 0 }, 300);
     });
   });
 
+
+  /////////////////////ESTE FUNCIONA PERO NO HACE SCROLL AL VOLVER
   // On clic on #hideWorkspaceContent executes a function
   $(".hideWorkspaceContent").click(function () {
     // Hide "workspaceContent" section
     $("#workspaceContent").animate({ opacity: 0 }, 300, function () {
-      $("#workspaceContent").css("display", "none");
-      // Show "mainContent" section
-      $("#mainContent").css("display", "flex").animate({ opacity: 1 }, 300);
-    });
+      $("#workspaceContent").css("display", "none");      
+    });    
+    // Show "mainContent" section
+    $("#mainContent").css("display", "flex").animate({ opacity: 1 }, 500);
+  });
+  
+  // On clic on #workspaceContent scrolls to the top
+  $("#workspaceContent").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 100);
   });
 }
 
 // Call function for a initial start
 workspaceSectionOnOff();
+
+function preloader() {
+
+  
+
+  $(document).ready(function() {
+    var loader = $("#preloader");
+
+    // Disable scroll
+    $("body").addClass("no-scroll");
+
+    $(window).on("load", function() {
+      loader.fadeOut("slow", function() {
+        // Enable scroll
+        $("body").removeClass("no-scroll");
+      });
+    });
+  });
+
+}
+
+preloader();
