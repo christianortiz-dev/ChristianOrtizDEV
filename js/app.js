@@ -159,8 +159,6 @@ function workspaceSectionOnOff() {
     });
   });
 
-
-  /////////////////////ESTE FUNCIONA PERO NO HACE SCROLL AL VOLVER
   // On clic on #hideWorkspaceContent executes a function
   $(".hideWorkspaceContent").click(function () {
     // Hide "workspaceContent" section
@@ -180,6 +178,7 @@ function workspaceSectionOnOff() {
 // Call function for a initial start
 workspaceSectionOnOff();
 
+//* ============ PreLoader ============ *//
 function preloader() {
 
   
@@ -200,4 +199,21 @@ function preloader() {
 
 }
 
+// Call function for a initial start
 preloader();
+
+//* ============ Colapse menu on click a link ============ *//
+
+function colapseMenuOnClick() {
+  const menuLinks = document.querySelectorAll('.menu-link');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const toggler = document.getElementById('toggler');
+      toggler.checked = false;
+    });
+  });
+}
+
+// Call function for a initial start
+colapseMenuOnClick();
+

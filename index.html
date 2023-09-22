@@ -45,7 +45,7 @@
     <nav class="navbar" id="navbar">
       <!-- Logo -->
       <a href="#" class="logo hideWorkspaceContent">
-        <img src="images/logo.svg" alt="logo" />
+        <img src="images/logo.svg" alt="logo" class="menu-link" />
         <!-- <h1>christian ortiz</h1> -->
       </a>
       <input type="checkbox" id="toggler" />
@@ -56,14 +56,16 @@
       </label>
       <!-- Menu -->
       <div class="menu">
-        <ul class="list">
-          <li class="hideWorkspaceContent"><a href="#projects">Proyectos</a></li>
-          <li class="hideWorkspaceContent"><a href="#skills">Skills</a></li>
-          <li class="hideWorkspaceContent"><a href="#githubStats">GitHub Stats</a></li>
-          <li class="hideWorkspaceContent"><a href="#contact-me">Contacto</a></li>
-          <p style="cursor:default;">_</p>
-          <li id="showWorkspaceContent">Workspace</li>
-        </ul>
+        <div class="menu-content">
+          <ul class="list">
+            <li class="hideWorkspaceContent menu-link"><a href="#projects">Proyectos</a></li>
+            <li class="hideWorkspaceContent menu-link"><a href="#skills">Skills</a></li>
+            <li class="hideWorkspaceContent menu-link"><a href="#githubStats">GitHub Stats</a></li>
+            <li class="hideWorkspaceContent menu-link"><a href="#contact-me">Contacto</a></li>
+            <p style="cursor:default;">_</p>
+            <li id="showWorkspaceContent" class="menu-link">Workspace</li>
+          </ul>
+        </div>        
       </div>
     </nav>
   </header>
@@ -182,25 +184,25 @@
       <!--* Project 3 -->
 
     </section>
-    <!--? ================ SKILLS ================ -->
+    <!-- ? ================ SKILLS ================-->
     <hr id="hr_section">
     <h2 id="skills">Skills</h2>
     <section class="skills">
 
       
 
-    </section>
+    </section> 
       
     <!--? ================ GITHUB STATS ================ -->
     <hr id="hr_section">
     <h2 id="githubStats">GitHub Stats</h2>
     <section class="githubStats">
       <!-- 1 -->
-      <img id="ghStats1" src="" alt="Christian Ortiz's GitHub Stats">
+      <img id="ghStats1" loading="lazy" src="" alt="Christian Ortiz's GitHub Stats">
       <!-- 2 -->
-      <img id="ghStats2" src="" alt="Christian Ortiz's GitHub Contributions">
+      <img id="ghStats2" loading="lazy"  src="" alt="Christian Ortiz's GitHub Contributions">
       <!-- 3 -->
-      <img id="ghStats3" src="" alt="Christian Ortiz's GitHub Most Used Languages">
+      <img id="ghStats3" loading="lazy"  src="" alt="Christian Ortiz's GitHub Most Used Languages">
       
     </section>
     <hr id="hr_section">
@@ -254,8 +256,8 @@
     <section class="copyright">
       <!-- Scroll Arrows up -->
       <a href="#about-me" class="arrows-up"></a>
-      <p>
-        Diseñado y desarrollado por
+      <p class="developBy">
+        <span>Diseñado y desarrollado por</span>
         <span class="myname"> Christian Ortiz</span>.
       </p>
       <span></span>
