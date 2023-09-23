@@ -166,11 +166,11 @@ function workspaceSectionOnOff() {
       $("#workspaceContent").css("display", "none");      
     });    
     // Show "mainContent" section
-    $("#mainContent").css("display", "flex").animate({ opacity: 1 }, 500);
+    $("#mainContent").css("display", "flex").animate({ opacity: 1 }, 300);
   });
   
   // On clic on #workspaceContent scrolls to the top
-  $("#workspaceContent").click(function () {
+  $("#showWorkspaceContent").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 100);
   });
 }

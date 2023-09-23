@@ -287,19 +287,6 @@ main, #workspaceContent {
   justify-content: center;
 }
 
-#workspaceContent {
-  padding-top: 170px;
-} 
-
-#workspaceContent div {  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 60%;
-}
-
 h2 {
   font-size: 2rem;
 }
@@ -912,6 +899,77 @@ footer {
 .copyright .myname {
   font-weight: bold;
   color: #7941f7;
+}
+
+/* ? ==================== WORKSPACECONTENT ==================== */
+
+#workspaceContent {
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* background-color: wheat; */
+}
+
+.tableWrapper {
+  background-color: #3a426350;
+  width: 1000px;
+  margin: 10px;
+  display: flex;
+  border-radius: 10px;
+  /* border: 2px solid darkviolet; */
+}
+
+/* .tableWrapper > div{
+  border: 1px solid red;
+  background-color: red;
+} */
+
+.tableWrapper:nth-child(odd) > div {
+  margin-left: auto;
+  padding-left: 15px;
+  /* border-left: 1px solid white; */
+  /* color: black; */
+}
+
+.tableWrapper:nth-child(even) > div {
+  margin-right: auto;
+  padding-right: 15px;
+}
+
+#workspaceContent table {
+  border-spacing: 2px;
+}
+
+#workspaceContent .tableTitle {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #29364E;
+  text-align: center;
+}
+
+#workspaceContent table th {
+  color: #FFF;
+  background-color: #4F5D95;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius:  10px 0 0 10px;
+}
+
+#workspaceContent table td {
+  color: #A1F2EC;
+  background-color: #131723;
+  padding: 5px 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+#workspaceContent table th, .workspaceTable:nth-child(even) td {
+  text-align: right;
+}
+
+#workspaceContent table th, .workspaceTable:nth-child(odd) td {
+  text-align: left;
 }
 
 /* ! ////////////////////////////////////////// MEDIA QUERY  ////////////////////////////////////////// */
