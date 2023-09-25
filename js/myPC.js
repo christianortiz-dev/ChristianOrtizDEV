@@ -1,32 +1,32 @@
 {
   PC = {
       "CPU": "Ryzen 9 5900X 12C/24T (4.6GHz all core)",
-      "MOBO": "ROG Crosshair VIII Dark Hero",
-      "RAM": "Corsair Vengeance PRO SL 32GB (16*2) (3600Mhz CL18)",
+      "MOBO": "Asus ROG Crosshair VIII Dark Hero",
+      "RAM": "Corsair Vengeance PRO SL 32GB (16x2) (3600Mhz CL18)",
       "GPU": "MSI RTX 4070 Ti Gaming X Trio",
-      "SSD1": "Samsung PM981A 256GB",
-      "SSD2": "WD850 500GB PCIe 4.0",
+      "SSD1": "Samsung PM981A 256GB PCIe 3.0",
+      "SSD2": "WD SN850 500GB PCIe 4.0",
       "HDD1": "Seagate Barracuda 2TB",
       "HDD2": "Seagate Barracuda 1TB",
       "PSU": "Corsair RM1000X Shift 1000W",
-      "CASE": "Nfortec Nekkar",
+      "CASE": "Nfortec Nekkar White",
       "OS": "Windows 11 Pro"
   },
 
   LIQUID_COOLING = {
       "Waterblock": "Nfortec Hydrus",
-      "Radiator1": "Nfortec Hydrus 240mm",
-      "Radaitor2": "Nfortec Hydrus 120mm",
-      "Pump&Reservoir": "Yosoo MS-500X",
+      "Radiator 1": "Nfortec Hydrus 240mm",
+      "Radaitor 2": "Nfortec Hydrus 120mm",
+      "Pump & Reservoir": "Yosoo MS-500X",
       "Thermal Compound": "Thermal Grizzly",
       "Liquid": "Corsair XL5"
   },
 
   MONITORS = {
-      "Monitor 1": "BenQ Mobiuz EX2710S 27 1080p 165Hz",
-      "Monitor 2": "Samsung S27F350 27 1080p 60Hz",
-      "Monitor 3": "Samsung S27F350 27 1080p 60Hz",
-      "Monitor 4": "Asus VS197 19 1366p 60Hz"
+      "Monitor 1": 'BenQ Mobiuz EX2710S 27" 1080p 165Hz',
+      "Monitor 2": 'Samsung S27F350 27" 1080p 60Hz',
+      "Monitor 3": 'Samsung S27F350 27" 1080p 60Hz',
+      "Monitor 4": 'Asus VS197DE 19" 768p 60Hz'
   },
 
   KEYBOARD = {

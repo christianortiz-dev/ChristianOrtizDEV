@@ -42,7 +42,9 @@ a {
 }
 
 hr {
-  opacity: 50%;
+  opacity: 50%;  
+  width: 50%;
+  margin: 100px 0 20px 0;
 }
 
 /* Scrollbar width */
@@ -692,12 +694,6 @@ h2 {
   border: #e5e5dc50 1px solid;
 }
 
-/* Line above contact section */
-#hr_section {
-  width: 50%;
-  margin: 100px 0 20px 0;
-}
-
 /* Contact me H2 */
 #contact-me {
   margin: 20px 0 20px 0;
@@ -904,46 +900,29 @@ footer {
 /* ? ==================== WORKSPACECONTENT ==================== */
 
 #workspaceContent {
-  padding-top: 170px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  /* background-color: wheat; */
+  padding-top: 170px; 
 }
 
-.tableWrapper {
-  background-color: #3a426350;
-  width: 1000px;
-  margin: 10px;
-  display: flex;
+.gridTable {
+  columns: 3 400px;
+  column-gap: 20px;
+  width: 67%;
+
+  margin-top: 35px;
+}
+
+#workspaceContent table, #workspaceContent img {
+  background-color: #29364E;
+  border-collapse: collapse;
+  overflow: hidden;
   border-radius: 10px;
-  /* border: 2px solid darkviolet; */
-}
 
-/* .tableWrapper > div{
-  border: 1px solid red;
-  background-color: red;
-} */
-
-.tableWrapper:nth-child(odd) > div {
-  margin-left: auto;
-  padding-left: 15px;
-  /* border-left: 1px solid white; */
-  /* color: black; */
-}
-
-.tableWrapper:nth-child(even) > div {
-  margin-right: auto;
-  padding-right: 15px;
-}
-
-#workspaceContent table {
-  border-spacing: 2px;
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 20px;
 }
 
 #workspaceContent .tableTitle {
-  border-radius: 10px;
   padding: 10px;
   background-color: #29364E;
   text-align: center;
@@ -953,23 +932,13 @@ footer {
   color: #FFF;
   background-color: #4F5D95;
   padding: 5px 10px;
-  margin: 0;
-  border-radius:  10px 0 0 10px;
+  text-align: left;
 }
 
 #workspaceContent table td {
   color: #A1F2EC;
   background-color: #131723;
   padding: 5px 10px;
-  border-radius: 0 10px 10px 0;
-}
-
-#workspaceContent table th, .workspaceTable:nth-child(even) td {
-  text-align: right;
-}
-
-#workspaceContent table th, .workspaceTable:nth-child(odd) td {
-  text-align: left;
 }
 
 /* ! ////////////////////////////////////////// MEDIA QUERY  ////////////////////////////////////////// */
@@ -1314,11 +1283,6 @@ footer {
     grid-template-columns: auto;
     padding: 10%;
     width: 70%;
-  }
-
-  hr {
-    width: 70%;
-    margin: 50px 0 20px 0;
   }
 
   /* P in contact */
