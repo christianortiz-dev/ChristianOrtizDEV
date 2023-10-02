@@ -900,10 +900,17 @@ footer {
 /* ? ==================== WORKSPACECONTENT ==================== */
 
 #workspaceContent {
-  padding-top: 170px; 
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.gridTable {
+#workspaceContent h2 {
+  text-align: center;
+}
+
+.tableList {
   columns: 3 400px;
   column-gap: 20px;
   width: 67%;
@@ -1351,6 +1358,14 @@ footer {
   }
 
   /* ? ==================== CONTACT ME ==================== */
+
+  /* ? ==================== WORKSPACECONTENT ==================== */
+
+
+  #workspaceContent h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 
   /* ? ==================== FOOTER ==================== */
 }
